@@ -14,6 +14,8 @@
 		F06B25AD2A31DF81006E6343 /* TestForHandKeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06B25AC2A31DF81006E6343 /* TestForHandKeyboardTests.swift */; };
 		F06B25B72A31DF81006E6343 /* TestForHandKeyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06B25B62A31DF81006E6343 /* TestForHandKeyboardUITests.swift */; };
 		F06B25B92A31DF81006E6343 /* TestForHandKeyboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06B25B82A31DF81006E6343 /* TestForHandKeyboardUITestsLaunchTests.swift */; };
+		F06B25C62A31E214006E6343 /* ExpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06B25C52A31E214006E6343 /* ExpView.swift */; };
+		F06B25C82A31E618006E6343 /* ExpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06B25C72A31E618006E6343 /* ExpViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		F06B25B22A31DF81006E6343 /* TestForHandKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestForHandKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06B25B62A31DF81006E6343 /* TestForHandKeyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestForHandKeyboardUITests.swift; sourceTree = "<group>"; };
 		F06B25B82A31DF81006E6343 /* TestForHandKeyboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestForHandKeyboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F06B25C52A31E214006E6343 /* ExpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpView.swift; sourceTree = "<group>"; };
+		F06B25C72A31E618006E6343 /* ExpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				F06B259B2A31DF80006E6343 /* TestForHandKeyboardApp.swift */,
 				F06B259D2A31DF80006E6343 /* ContentView.swift */,
+				F06B25C52A31E214006E6343 /* ExpView.swift */,
+				F06B25C72A31E618006E6343 /* ExpViewModel.swift */,
 				F06B259F2A31DF81006E6343 /* Assets.xcassets */,
 				F06B25A12A31DF81006E6343 /* Preview Content */,
 			);
@@ -259,6 +265,8 @@
 			files = (
 				F06B259E2A31DF80006E6343 /* ContentView.swift in Sources */,
 				F06B259C2A31DF80006E6343 /* TestForHandKeyboardApp.swift in Sources */,
+				F06B25C82A31E618006E6343 /* ExpViewModel.swift in Sources */,
+				F06B25C62A31E214006E6343 /* ExpView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +433,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,6 +463,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

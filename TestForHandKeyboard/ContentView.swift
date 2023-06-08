@@ -8,14 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    let titleList = ["Endless","10Times"]
+    let subTitleList = ["回数制限なくテストを行う","10個の単語を入力する"]
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+            NavigationView{
+                
+                List{
+                    ForEach(0..<titleList.count, id: \.self){ index in
+                        NavigationLink(destination: ExpView(vm: ExpViewModel())){
+                            VStack(alignment: .leading){
+                                Text(titleList[index])
+                                    .font(.title)
+                                Text(subTitleList[index])
+                                    .font(.subheadline)
+                                    .foregroundColor(.gray)
+                            }
+                        }
+                    }
+                }
+            }
     }
 }
 
