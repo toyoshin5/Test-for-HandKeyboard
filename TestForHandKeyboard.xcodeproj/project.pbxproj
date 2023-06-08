@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F06976422A32068F000FB32E /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06976412A32068F000FB32E /* PracticeView.swift */; };
+		F06976442A3206A3000FB32E /* PracticeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06976432A3206A3000FB32E /* PracticeViewModel.swift */; };
 		F06B259C2A31DF80006E6343 /* TestForHandKeyboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06B259B2A31DF80006E6343 /* TestForHandKeyboardApp.swift */; };
 		F06B259E2A31DF80006E6343 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06B259D2A31DF80006E6343 /* ContentView.swift */; };
 		F06B25A02A31DF81006E6343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F06B259F2A31DF81006E6343 /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F06976412A32068F000FB32E /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
+		F06976432A3206A3000FB32E /* PracticeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewModel.swift; sourceTree = "<group>"; };
 		F06B25982A31DF80006E6343 /* TestForHandKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestForHandKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06B259B2A31DF80006E6343 /* TestForHandKeyboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestForHandKeyboardApp.swift; sourceTree = "<group>"; };
 		F06B259D2A31DF80006E6343 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +106,8 @@
 				F06B259D2A31DF80006E6343 /* ContentView.swift */,
 				F06B25C52A31E214006E6343 /* ExpView.swift */,
 				F06B25C72A31E618006E6343 /* ExpViewModel.swift */,
+				F06976412A32068F000FB32E /* PracticeView.swift */,
+				F06976432A3206A3000FB32E /* PracticeViewModel.swift */,
 				F06B259F2A31DF81006E6343 /* Assets.xcassets */,
 				F06B25A12A31DF81006E6343 /* Preview Content */,
 			);
@@ -264,6 +270,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F06B259E2A31DF80006E6343 /* ContentView.swift in Sources */,
+				F06976442A3206A3000FB32E /* PracticeViewModel.swift in Sources */,
+				F06976422A32068F000FB32E /* PracticeView.swift in Sources */,
 				F06B259C2A31DF80006E6343 /* TestForHandKeyboardApp.swift in Sources */,
 				F06B25C82A31E618006E6343 /* ExpViewModel.swift in Sources */,
 				F06B25C62A31E214006E6343 /* ExpView.swift in Sources */,

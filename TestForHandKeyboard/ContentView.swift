@@ -15,16 +15,31 @@ struct ContentView: View {
             NavigationView{
                 
                 List{
-                    ForEach(0..<titleList.count, id: \.self){ index in
-                        NavigationLink(destination: ExpView(vm: ExpViewModel())){
-                            VStack(alignment: .leading){
-                                Text(titleList[index])
-                                    .font(.title)
-                                Text(subTitleList[index])
-                                    .font(.subheadline)
-                                    .foregroundColor(.gray)
+                    ForEach(-1..<titleList.count, id: \.self){ index in
+                        if index == -1 {
+                            NavigationLink(destination:PracticeView(vm: PracticeViewModel()))
+                            {
+                                VStack(alignment: .leading){
+                                    Text("Practice")
+                                        .font(.title)
+                                    Text("練習用")
+                                        .font(.subheadline)
+                                        .foregroundColor(.gray)
+                                }
+                            }
+                        }else{
+                            NavigationLink(destination:ExpView(vm: ExpViewModel()))
+                            {
+                                VStack(alignment: .leading){
+                                    Text(titleList[index])
+                                        .font(.title)
+                                    Text(subTitleList[index])
+                                        .font(.subheadline)
+                                        .foregroundColor(.gray)
+                                }
                             }
                         }
+                        
                     }
                 }
             }
